@@ -6,11 +6,12 @@ function About() {
     return (
         <section className='my-5'>
             <h1 id='about'>"Towards the future"</h1>
-            <img src={coverImage} className='my-2' style={{ width: '100%'}} alt= 'cover' />
-        <div className='my-2'>
-            <p>Interesting stuffz about me
-            </p>
-        </div>
+            <img src={coverImage} className='my-2' style={{ width: '100%' }} alt='cover' />
+            <div className='my-2'>
+                <p>
+                    Interesting stuffz about me
+                </p>
+            </div>
         </section>
     );
 };
